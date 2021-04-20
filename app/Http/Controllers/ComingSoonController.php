@@ -5,10 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DateTime;
 
-class ComingSoonController extends Controller
-{
-    public function index()
-    {
+class ComingSoonController extends Controller{
+    public function index(){
         $openDateEnv = env('ANFORCOM_OPEN_COMING_SOON');
 
         if (! $openDateEnv) {
