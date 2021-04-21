@@ -48,7 +48,7 @@
         <h1 id="headline">Anforcom 2021</h1>
         <div id="countdown">
           <ul>
-            <li>Days<span id="days"></span></li>
+            <li class="pisah">Days<span id="days"></span></li>
             <li>Hours<span id="hours"></span></li>
             <li>Minutes<span id="minutes"></span></li>
             <li>Seconds<span id="seconds"></span></li>
